@@ -1,0 +1,38 @@
+.hero {
+  width: 21%;
+}
+.heroText {
+  font-size: 5rem;
+}
+.heroText3 {
+  font-size: 1rem;
+  color: white;
+  background-color: transparent;
+}
+.heroText3:hover {
+  color: black;
+  background-color: white;
+}
+@media (max-width: 768px) {
+  .hero {
+    width: 100%;
+  }
+  .heroText {
+    font-size: 2rem;
+  }
+  .heroText3 {
+    font-size: 17px;
+  }
+}
+.mobMenu {
+  top: 0;
+  z-index: 10;
+  left: 0;
+  position: fixed;
+  color: black;
+  background-color: white;
+  width: 100vh;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
