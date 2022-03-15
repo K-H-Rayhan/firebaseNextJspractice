@@ -169,6 +169,7 @@ const ResponsiveAppBar = () => {
                     sx={{ color: "text.secondary", fontSize: 11 }}
                     noWrap
                   >
+                      {console.log(user)}
                     {user.email}
                   </Typography>
                 </Box>
